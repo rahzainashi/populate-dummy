@@ -65004,7 +65004,7 @@ def basic_consume_loop():
         }
     }
 ]
-    client = InfluxDBClient(host='127.0.0.1', port=8086, database='dbname')
+    client = InfluxDBClient(host='127.0.0.1', port=8086, database='user_log')
     result = client.write_points(json_body)
     print(result)
 
