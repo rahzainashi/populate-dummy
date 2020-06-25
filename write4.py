@@ -1,6 +1,4 @@
-from confluent_kafka import Consumer
 from influxdb import InfluxDBClient
-import generated 
 
 def basic_consume_loop():
     
